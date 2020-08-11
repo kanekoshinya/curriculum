@@ -28,13 +28,13 @@ public class Task1_4 {
         // 名前とパスワードは画面からの入力値だと想定してみましょう。
          String name = "alice";
          String pass = "pass";
-        if(nameName == name && password == pass){
+        if(nameName.equals(name)&& password.equals(pass)){
         // ② 名前が「 alice 」、パスワードが「 pass 」であった場合、「 ログイン成功です 」と出力してください。
           System.out.println(CONST_MSG_SUCCESS);
-        }else if(nameName == name && !(pass.equals(password))){
+        }else if(nameName.equals(name)&& !(pass.equals(password))){
         // ③ 名前のみ正しい場合、「 パスワードに誤りがあります。 」と出力してください。
           System.out.println(CONST_MSG_ERROR_PASS);
-        }else if(!(name.equals(nameName)) && password == pass){
+        }else if(!(name.equals(nameName)) && password.equals(pass)){
         // ④ パスワードのみ正しい場合、「 名前に誤りがあります。 」と出力してください。
           System.out.println(CONST_MSG_ERROR_NAME);
         }else{
