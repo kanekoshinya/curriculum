@@ -1,6 +1,5 @@
 package study;
 
-
 /**
  * Study.java
  */
