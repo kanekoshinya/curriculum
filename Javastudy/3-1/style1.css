@@ -41,23 +41,37 @@
   .header{
     width:250px;
   }
+  .main{
+    width:250px;
+  }
   .main-right{
     width:100px;
   }
-  .footeer{
+  .footer{
     width:250px;
   }
 }
 
 @media screen and (max-width: 479px){
   .header{
-    widows: 150px;
+    width: 150px;
+    margin:auto;
+  }
+  .main{
+    height:500px;
+    width:150px;
   }
   .main-right{
+    height:250px;
     width:150px;
     float: none;
   }
-  .footeer{
+  .main-left{
+    height:250px;
+    width:150px;
+    float: none;
+  }
+  .footer{
     width:150px;
     float: none;
   }
