@@ -1,15 +1,18 @@
+.wrapper{
+  height:450px;
+  width:400px;
+  margin:0 auto;
+}
 
 .header{
   height:100px;
   width:400px;
   background-color: #141f40;
-  margin:0 auto;
 }
 
 .main{
   height:250px;
   width:400px;
-  margin:0 auto;
 }
 .main::after {
   content: "";
@@ -31,13 +34,15 @@
 }
 
 .footer{
-  margin:0 auto;
   width:400px;
   height:100px;
   background-color: #d98d30;
 }
 
 @media screen and (max-width: 767px) {
+  .wrapper{
+    width:767px;
+  }
   .header{
     width:250px;
   }
@@ -53,6 +58,9 @@
 }
 
 @media screen and (max-width: 479px){
+  .wrapper{
+    widows: 150px;px;
+  }
   .header{
     width: 150px;
     margin:auto;
