@@ -85,7 +85,7 @@ public class ExException {
  printException(e);
   // 問③: クラスキャストの例外をキャッチしなさい。
   // ルール: 上述の他の例外同様引、数名は「e」で記述すること。
- } catch (final Exception e){
+ } catch (ClassCastException e){
  printException(e);
  } finally {
  System.out.println("リトライ回数 = " + retryCounter++);
