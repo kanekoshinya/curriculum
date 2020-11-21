@@ -43,4 +43,7 @@
   DELETE FROM stock_table
   WHERE
   good_code ='S987' AND store_code = 'EA01'
+
+
+  
   
