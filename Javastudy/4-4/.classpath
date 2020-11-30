@@ -6,6 +6,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry exported="true" kind="lib" path="lib/postgresql-42.2.10.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/postgresql-42.2.10.jar" sourcepath="/var/folders/gh/wj74rfts4nqfwg3zz5w2xh7m0000gn/T/.org.sf.feeling.decompiler1605731083753/source/postgresql-42.2.10-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
