@@ -8,12 +8,10 @@
 <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<footer>
   <div class = "footer">
     <label>
       hoge.Inc
     </label>
   </div>
-</footer>
 </body>
 </html>

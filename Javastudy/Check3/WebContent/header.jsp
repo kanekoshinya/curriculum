@@ -10,7 +10,6 @@
 </head>
 <body>
 
-<header>
   <div class = "header">
     <label>
           login
@@ -22,7 +21,7 @@
 		   out.print(formatDate); %>
     </div>
   </div>
-</header>
+
 
 <!-- </body>
 </html> -->
