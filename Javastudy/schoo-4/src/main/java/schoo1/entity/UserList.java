@@ -8,15 +8,15 @@ import javax.persistence.Table;
  * user_listテーブルのEntityクラスです
  */
 @Entity
-@Table(name="user_list")
+@Table(name="user_information")
 public class UserList {
 	@Id
 	@Column(name = "id")
 	private Integer id;
 	@Column(name = "name")
 	private String name;
-	@Column(name = "age")
-	private Integer age;
+	@Column(name = "password")
+	private String password;
 
 	/**
 	 * @return id
@@ -45,13 +45,13 @@ public class UserList {
 	/**
 	 * @return age
 	 */
-	public Integer getAge() {
-		return age;
+	public String getAge() {
+		return password;
 	}
 	/**
 	 * @param age セットする age
 	 */
-	public void setAge(Integer age) {
-		this.age = age;
+	public void setAge(String password) {
+		this.password = password;
 	}
 }
