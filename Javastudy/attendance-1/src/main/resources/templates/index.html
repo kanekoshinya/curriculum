@@ -7,10 +7,17 @@
 </head>
 <body>
 <div class="main">
-<form acttion="new" method="post">
+<ul class="list-group list-group-flush" th:each="user : ${users}">
+	<!-- user（UserListクラス）のgetNameメソッドを実行して名前を画面に表示 -->
+	<li th:text="${user.name}"></li>
+	<td th:text="${user.id}"></td>
+	<td><a th:href="@{delete(id=${user.id})}">削除する</a></td>
+</ul>
+<form action="new" name="user" method="post">
 <input type="text" id="name" name="name" class="input">
 <input type="text" id="password" name="password" class="input">
-<button type="submit">送信</button>
+<button type="submit">追加</button>
+</form>
 </div>
 </body>
 </html>

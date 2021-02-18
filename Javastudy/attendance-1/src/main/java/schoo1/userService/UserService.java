@@ -16,4 +16,16 @@ public class UserService {
 	public List<User_information> findAll() {
 		return UserRepository.findAll();
 	}
+
+	public void create(String name,String password) {
+	    User_information user = new User_information();
+	    user.setName(name);
+	    user.setPassword(password);
+	    UserRepository.save(user);
+
+	  }
+
+	public void delete(Integer id) {
+		UserRepository.deleteById(id);
+	}
 }
