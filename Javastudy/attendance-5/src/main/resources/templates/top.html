@@ -1,12 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
-
-hello World
-
+<form action="/" name="user" method="post">
+id
+<input type="text" id="user" name="user" class="input">
+password
+<input type="text" id="password" name="password" class="input">
+<button type="submit">登録</button>
+</form>
+ <a href="/RegistrationForm">新規登録</a>
 </body>
 </html>
