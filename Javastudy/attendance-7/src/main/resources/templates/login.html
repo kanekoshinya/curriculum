@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:th="https://www.thymeleaf.org"
+    xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>ログイン</title>
+</head>
+<body>
+    <div class="login-form">
+        <form th:action="@{/login}" th:method="post">
+            <input type="text" name="loginId" id="loginId"><br />
+            <input type="password" name="password" id="password"><br />
+            <button type="submit" class="login-btn">ログイン</button>
+        </form>
+    </div>
+
+    <button onclick="location.href='./signup'" class="signup-link">新規登録</button>
+</body>
+</html>
