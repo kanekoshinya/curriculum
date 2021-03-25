@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+フォーム入力
+	<form action="add" method="post">
+		<div class="form-label-group">
+			<label for="name">名前</label>
+			<input type="text"
+					id="name"
+					name="name"
+					class="form-control">
+		</div>
+		<div class="form-label-group">
+			<label for="data">出勤日</label>
+			<input type="DATE"
+				id="data"
+				name="data"
+				class="form-control">
+		</div>
+		<div class="form-label-group">
+			<label for="attendance">出勤時間</label>
+			<input type="time"
+				id="attendance"
+				name="attendance"
+				class="form-control">
+		</div>
+		<div class="form-label-group">
+			<label for="leave">退勤時間</label>
+			<input type="time"
+				id="leave"
+				name="leave"
+				class="form-control">
+		</div>
+		<br>
+		<button
+			class="btn btn-lg btn-primary btn-block btn-login font-weight-bold mb-2"
+			type="submit">追加
+		</button>
+	</form>
+</body>
+</html>
