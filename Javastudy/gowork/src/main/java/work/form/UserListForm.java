@@ -8,7 +8,7 @@ import lombok.Data;
 public class UserListForm {
 	private String name;
 //	private Data data;
-//	private Time attendance;
+	private String attendance;
 
-//	private Time leave;
+	private String leave;
 }

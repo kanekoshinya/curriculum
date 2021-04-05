@@ -9,12 +9,12 @@ import work.repository.WorkRepository;
 @Service
 public class WorkService {
 	@Autowired WorkRepository workRepository;
-	public void save(String name) {
+	public void save(String name,String attendance,String leave) {
 		WorkEntity workEntity = new WorkEntity();
 		workEntity.setName(name);
 //		workEntity.setData(data);
-//		workEntity.setAttendance(attendance);
-//		workEntity.setLeave(leave);
+		workEntity.setAttendance(attendance);
+		workEntity.setLeave(leave);
 		workRepository.save(workEntity);
   }
 

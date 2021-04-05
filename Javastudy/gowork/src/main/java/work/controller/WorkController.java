@@ -28,7 +28,7 @@ public class WorkController {
 
   @PostMapping("add")
   public String addUser(@ModelAttribute UserListForm userListForm) {
-	  workService.save(userListForm.getName());
+	  workService.save(userListForm.getName(),userListForm.getAttendance(),userListForm.getLeave());
 	  return "index";
   }
 }

@@ -21,8 +21,8 @@ public class WorkEntity {
 	private String name;
 //	@Column(name = "data")
 //	private Data data;
-//	@Column(name = "attendance")
-//	private Time attendance;
-//	@Column(name = "leave")
-//	private Time leave;
+	@Column(name = "attendance")
+	private String attendance;
+	@Column(name = "leave")
+	private String leave;
 }
