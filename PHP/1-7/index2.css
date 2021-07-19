@@ -1,0 +1,53 @@
+.header{
+  background-color: #141f40;
+  height: 100px;
+  width: 400px;
+}
+.body{
+ display: flex;
+}
+.body-right{
+  height: 250px;
+  width: 150px;
+  background-color: #80bfa8;
+}
+.body-left{
+  height: 250px;
+  width: 250px;
+}
+.left-top-left{
+  height: 150px;
+  width: 100px;
+  background-color: #dbd403;
+}
+
+.left-top{
+  height: 150px;
+  width: 250px;
+  display: flex;
+}
+.left-bottom{
+  height: 100px;
+  width: 250px;
+  background-color: #0093b7;
+}
+.left-top-right{
+  height: 150px;
+  width: 150px;
+}
+.top{
+  height: 50px;
+  width: 150px;
+  background-color: #8c2727;
+}
+.bottom{
+  height: 100px;
+  width: 150px;
+  background-color: #ff9e6b;
+}
+.footer{
+  background-color: #d98d30;
+  height:100px;
+  width: 400px;
+}
+3:48
