@@ -1,0 +1,45 @@
+package test2;
+
+public class Pet {
+
+    private String firstName;
+    private String lastName;
+
+    public Pet(String firstName,String lastName ) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+
+    protected String getFirstName() {
+        return firstName;
+    }
+
+    protected String getLastName() {
+        return lastName;
+    }
+
+    //Q4 名前で出力結果の異なるメソッドage()を作成すること
+    //（①田中太郎の場合に表示するもの：田中太郎は24歳　②山田花子の場合に表示するもの：山田花子は29歳　③それ以外の場合：値は無効です）
+
+    public void age(String firstName,String lastName) {
+
+    	String fullName = firstName+lastName;
+    	String fullName1 = "田中太郎";
+
+    	if(fullName.equals(fullName1)) {
+    		System.out.println(fullName+"24歳");
+    	}else if(fullName == "山田花子") {
+    		System.out.println(fullName+"29歳");
+    	}else {
+    		System.out.println(fullName);
+    	}
+
+    }
+}
+
+class RobotPet extends Pet {
+    public RobotPet(String firstName,String lastName ) {
+        super(firstName,lastName);
+    }
+
+}
